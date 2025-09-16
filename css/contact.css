@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .contact-container {
         max-width: 500px;
         margin: 100px auto 0 auto;
@@ -42,11 +47,12 @@
         font-size: 1em;
         font-weight: bold;
         cursor: pointer;
-        transition: background 0.3s;
+        transition: ease-in-out 0.3s;
         box-shadow: 0 2px 8px rgba(76,175,80,0.10);
         display: block;
         margin: 0 auto;
       }
       .contact-form button:hover {
+        transition: ease-in-out 0.3s;
         background: #388E3C;
       }
