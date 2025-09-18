@@ -12,9 +12,10 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #4CAF50;
+    background: linear-gradient(90deg, #4CAF50 0%, #81C784 100%);
     color: white;
-    padding: 20px 0;
+    border-top: solid 3px #29af30;
+    margin-top: 90px;
     text-align: center;
 }
 
@@ -26,7 +27,6 @@ header h1 {
 /* Main Content Styles */
 main {
     padding: 20px;
-    max-width: 800px;
     margin: 0 auto;
     background: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -36,6 +36,14 @@ main {
 /* Section Styles */
 section {
     margin-bottom: 20px;
+}
+
+aside {
+    flex: 1;
+    background: #e8f5e9;
+    border-left: 4px solid #4CAF50;
+    padding: 10px 15px;
+    margin: 20px 0;
 }
 
 section h2 {
