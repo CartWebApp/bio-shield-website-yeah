@@ -1,6 +1,10 @@
 body {
+    font-family: Arial, helvetica, sans-serif;
+    line-height: 1.6;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
 }
 
 .hero {
@@ -16,10 +20,11 @@ body {
     border-bottom: solid 2px #29af30;
 }
 
-.hero h1 {
-    color: #4CAF50;
-    font-size: 3rem;
-    margin: 0;
+section {
+    padding: 20px;
+    background: white;
+    border-top: solid #29af30;
+    border-radius: 8px;
 }
 
 footer {
@@ -30,6 +35,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 footer p {
