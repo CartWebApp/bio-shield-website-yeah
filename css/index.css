@@ -3,6 +3,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.hero {
+    background-image: url('../images/hero-image.jpg');
+    filter: blur(2px) brightness(0.5);
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-bottom: solid 2px #29af30;
+}
+
+.hero h1 {
+    color: #4CAF50;
+    font-size: 3rem;
+    margin: 0;
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
