@@ -43,14 +43,14 @@ nav ul li a img {
     height: 50px;
     vertical-align: middle;
     margin: 0;
-    padding: 0;
+    padding-top: 3px;
     display: inline-block;
     margin-right: 0;
-    scale: 2.5;
+    scale: 3;
 }
 
-.navbar a:hover,
-.navbar a:focus {
+.nav-item:hover,
+.nav-item:focus {
     background: #388E3C;
     color: #fff;
     box-shadow: 0 2px 8px rgba(56,142,60,0.15);
