@@ -5,11 +5,9 @@ body {
     padding: 0;
     color: #333;
     background-color: #f9f9f9;
- }
- 
- .product-img {
-    
 }
+ 
+
 
 
 
@@ -27,7 +25,7 @@ body {
 
 .product {
     background: white;
-    border: 1px solid #e0e0e0;
+    border: 2px solid #81C784;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 15px;
@@ -37,7 +35,8 @@ body {
     transition: transform 0.3s;
 }
 
-.product img {
+.product-img {
+    border: solid 1px #4CAF50;
     max-width: 100%;
     height: auto;
     border-radius: 8px;
