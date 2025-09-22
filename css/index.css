@@ -20,11 +20,75 @@ body {
     border-bottom: solid 2px #29af30;
 }
 
-section {
-    padding: 20px;
-    background: white;
-    border-top: solid #29af30;
-    border-radius: 8px;
+.introduction {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+  border: #29af30 2px solid;
+  border-radius: 12px;
+}
+
+
+/* Featured Products */
+.featured-products {
+  padding: 40px 20px;
+  background-color: #f4f9f4;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 260px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.product-card figure {
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.product-card figcaption {
+  font-weight: bold;
+  margin-top: 8px;
+  font-size: 1.1rem;
+}
+
+.product-card p {
+  font-size: 0.95rem;
+  margin: 10px 0 15px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #2d572c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #3f7c3d;
 }
 
 footer {
