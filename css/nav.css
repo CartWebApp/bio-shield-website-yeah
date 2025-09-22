@@ -14,10 +14,9 @@
     padding: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .navbar li {
-    margin: 20px;
+    margin: 10px;
 }
 .navbar .nav-brand {
     font-weight: bold;
@@ -26,12 +25,17 @@
     color: #fff;
     text-shadow: 0 2px 8px #388E3C;
     margin-right: auto;
+    background: white;
+    border-radius: 100%;
+    border: #81C784 solid 3px;
+    width: 70px;
+    height: 70px;
 }
 
 .navbar ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     padding: 0 10px 0 10px;
     margin: 0;
     border-radius: 20px;

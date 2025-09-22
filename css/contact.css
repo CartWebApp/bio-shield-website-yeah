@@ -77,7 +77,7 @@ body {
       }
 
       .popup {
-        /* display: none; */
+        display: none;
         position: fixed;
         top: 50%;
         left: 50%;
@@ -88,11 +88,21 @@ body {
         border-radius: 8px;
         box-shadow: 0 2px 16px rgba(76,175,80,0.10);
         z-index: 1000;
+        text-align: center;
+        width: 500px;
       }
 
       .popup h3 {
         font-size: 30px;
-        
+        border-bottom: solid 3px #4CAF50;
+        border-width: 3px;
+        width: max-content;
+        translate: 170px -10px;
+      }
+
+      .popup p {
+        margin: 20px 0;
+        font-size: 18px;
       }
 
       footer {
