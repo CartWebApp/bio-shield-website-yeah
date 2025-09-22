@@ -29,7 +29,7 @@ main {
     margin: 0 auto;
     background: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 8px 8px 0px 0px;
 }
 
 /* Section Styles */
@@ -62,7 +62,8 @@ section p {
     max-width: 100%;
     height: auto;
     margin: 15px auto;
-    border-radius: 6px;
+    border-radius: 12px;
+    border: #4CAF50 4px solid;
 }
 
 /* Footer Styles */
