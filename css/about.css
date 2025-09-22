@@ -56,6 +56,15 @@ section p {
     text-align: justify;
 }
 
+/* Image used in the Our Story section */
+.about-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 6px;
+}
+
 /* Footer Styles */
 footer {
     text-align: center;
